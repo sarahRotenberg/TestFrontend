@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+  <app-header-app></app-header-app>
+ 
+  <div  style="text-align:center">
+    <h1>
+      Welcome to test!
+    </h1>
+   <div >
+    <table class="table table-sm">
+      <thead class="thead-light">
+        <tr>
+          <th>appId </th>
+          <th>first name</th>
+          <th>last name</th>  
+         
+  
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="pointer" (click)="selectedApp(row)" *ngFor="let row of applicationList;">
+          <td> {{row.id}} </td>
+            <td>  {{row.firstName}}</td>
+          <td>{{row.lastName}}</td>
+          
+  
+        </tr>
+      </tbody>
+    </table>
+  
+  
+  
+   </div>
+  </div>
+  </div>
+  

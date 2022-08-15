@@ -1,0 +1,164 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@ng-select/ng-select/themes/default.theme.css";
+body{
+    text-align: right !important;
+    font-family: Assistant;
+    font-size: 16px
+}
+.dropdown-menu {
+    right: auto !important;
+    float: right!important;
+    overflow-y: auto;
+}
+.form-control {
+    display:initial;
+    width: auto;
+   
+}
+
+.alert-dismissable .close, .alert-dismissible .close{
+    left: 0px;
+ }
+
+.alertMessage{
+    margin-right: -40px;
+}
+
+.eduDS .ui-confirmdialog .ui-dialog-content .ui-confirmdialog-icon{
+    font-size: 27px !important;
+}
+.container {
+    max-width: 1000px;
+}
+.ui-dialog-resizable .ui-dialog-content {
+    overflow: hidden;
+}
+body .ui-dialog .ui-dialog-content {
+    background-color:transparent;
+    color: #333333;
+    border: 1px solid #c8c8c8;
+    padding: 0.571em 1em;
+}
+.eduDS .ui-widget-overlay {
+    background-color: rgba(0, 0, 0, 0.4)!important;
+    } 
+    .eduDS .ui-dialog {
+        box-shadow: 0 0 6px rgb(0 0 0 / 60%);
+        background-color: #FFFFFF;
+        border-radius: 0;
+    }
+
+    .modal-dialog {
+        max-width: 600px !important;
+        margin: 1.75rem auto;
+    }
+    .text-decoration{
+        text-decoration: underline;
+    }
+
+    .buttonLink {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        border-radius: 6px;
+        outline: none;
+      }
+
+      
+button {
+    background: none!important;
+    border: none!important;;
+    padding: 0!important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: #069;
+     cursor: pointer;
+    text-decoration: underline !important;
+    color: #0000ff !important;
+  }
+
+    
+     a:link  {
+        text-decoration: underline !important;
+        color:#0000ff !important;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      a:active {
+        text-decoration: underline;
+      }
+    
+      a.link:link {color:#ff0000;text-decoration: underline;}
+    a.link:visited {color:#0000ff;}
+    a.link:hover {color:#0c0c0c;}
+    .titleDiv
+    {
+        background-color: #96a4ac;
+    }
+    .comment
+    {
+        color:red; font-size: 9; font-weight:200;
+    }
+    .modal-xl {
+        max-width: 1200px !important;
+        margin: 1rem auto;
+    }
+    
+    .modal-xxl {
+        max-width: 1500px !important;
+        margin: 1rem auto;
+    }
+
+    .modalTitle{ background-color: #e9ecef;}
+
+
+
+    body .ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active a {
+        background-color: #007ad9;
+        border: 1px solid #007ad9;
+        color:#e9ecef;
+    }
+
+    
+        .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link {
+            background: red;
+        }
+
+        
+        .pi-chevron-right:before {
+            content: "\e816";
+            size:2em;
+        }
+
+        .pi-chevron-down:before {
+            content: "\e815";
+        }
+
+        title {background-image: radial-gradient(#553c9a, #ee4b2b);}
+
+        body {
+            direction:ltr !important;
+        }
+        header {
+            direction:ltr !important;
+        }
+
+        .button {
+            position: absolute;
+            top:50%;
+            background-color:#0a0a23;
+            color: #fff;
+            border:none;
+            border-radius:10px;
+          }

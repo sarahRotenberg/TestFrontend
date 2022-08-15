@@ -1,0 +1,67 @@
+<!--<p-card styleClass="eds-card-colored-bg">-->
+  
+  <div class="container" >
+    
+    <app-header-app></app-header-app>
+    <div *ngIf="appDetails">
+  <div class="title">
+    <div class="row ">
+      <div  class="col-md-4">
+        <h3>
+         appId:{{appDetails.id}}
+        </h3>
+        <span></span>
+      
+      </div>
+
+      <div  class="col-md-4">
+        <h3>
+         first name:{{appDetails.firstName}}
+        </h3>
+        <span></span>
+      </div>
+
+      <div  class="col-md-4">
+        <h3>
+         last name:{{appDetails.lastName}}
+        </h3>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container paddingTop5" style="text-align:center">
+
+    <table class="table table-sm">
+      <thead class="thead-light">
+        <tr>
+          <th>card no. </th>
+          <th>issuer</th>
+          <th>amount</th> 
+          <th>transType</th>  
+         
+  
+        </tr>
+      </thead>
+      <tbody>
+        <tr  *ngFor="let row of trans;let i= index">
+          <td>{{row.cardDetails.cardNo}} </td>
+          <td> {{ row.cardDetails.issuer}}</td>
+          <td>{{row.amount}}</td>
+          <td>{{row.transTypeDescription}}</td>
+          
+  
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+  <div>
+
+    <button class="btn btn-success pull-right" ><a class="btn btn-dark pull-right" routerLink="/applications"> back to applications</a></button>
+    
+    </div>
+</div>
+
+
+<!--</p-card>-->
